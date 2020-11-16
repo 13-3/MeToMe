@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MeToMe</string>
+    <string name="skip">SKIP</string>
+    <string name="quote1">Focus on the step in front of you, not the whole staircase.</string>
+    <string name="quote2">GREAT THINGS NEVER CAME FROM COMFORT ZONES</string>
+    <string name="quote3">BELIEVE IN YOURSELF AND ANYTHING IS POSSIBLE</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="welcome">Welcome..!</string>
+</resources>

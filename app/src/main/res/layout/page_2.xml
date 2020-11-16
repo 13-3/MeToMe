@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+
+    <TextView
+        android:id="@+id/tvSkip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffff"
+        android:text="@string/skip"
+        android:textColor="#E1284854"
+        android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/ivSlide1"
+        android:layout_width="446dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="-35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="130dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/motivation2" />
+
+    <TextView
+        android:id="@+id/tvSlide1"
+        android:layout_width="248dp"
+        android:layout_height="127dp"
+        android:layout_below="@id/ivSlide1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="36dp"
+
+
+        android:text="@string/quote2"
+        android:textAllCaps="true"
+        android:textColor="#708A81"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="50dp" />
+</RelativeLayout>
