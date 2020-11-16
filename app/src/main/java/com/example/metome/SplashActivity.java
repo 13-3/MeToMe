@@ -12,6 +12,11 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
+
         startActivity(new Intent(this,MainActivity.class));
     }
 }

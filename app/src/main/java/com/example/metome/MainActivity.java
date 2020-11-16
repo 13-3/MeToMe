@@ -26,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
+
         List<Fragment> list = new ArrayList<>();
         list.add(new PageFragment1());
         list.add(new PageFragment2());

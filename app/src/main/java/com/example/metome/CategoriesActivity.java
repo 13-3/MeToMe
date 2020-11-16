@@ -20,6 +20,10 @@ public class CategoriesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
 
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
         db = new DatabaseHelper(this);
 
         ivClickProfile = findViewById(R.id.ivClickProfile2);

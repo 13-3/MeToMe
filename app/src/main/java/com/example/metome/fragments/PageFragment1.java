@@ -18,6 +18,7 @@ import com.example.metome.R;
 public class PageFragment1 extends Fragment {
 
 
+
     TextView tvSkip1;
 
     @Nullable

@@ -57,6 +57,11 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
+
+
         actionBar = getSupportActionBar();
 
         actionBar.setTitle("Add profile photo");
