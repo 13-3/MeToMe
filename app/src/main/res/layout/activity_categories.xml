@@ -101,6 +101,8 @@
         </TableRow>
 
         <TableRow>
+            android:layout_width="323dp"
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/tvReader"
@@ -121,15 +123,16 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="20dp">
+            android:layout_width="323dp"
+            android:layout_height="wrap_content">
 
 
             <TextView
                 android:id="@+id/tvWriter"
-                android:layout_width="268dp"
-                android:layout_height="wrap_content"
+                android:layout_width="266dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/login_shape"
                 android:gravity="center_horizontal"
                 android:padding="18dp"

@@ -17,6 +17,11 @@ public class Contract {
         public static final String COL_USER_PASSWORD = "password";
         public static final String COL_IMAGE = "image";
 
+        public static final String TABLE_PIECE = "piece";
+        public static final String COL_PIECE_NAME = "piece_name";
+        public static final String COL_PIECE_ID = "piece_id";
+        public static final String COL_PIECE_IMAGE = "piece_image";
+
 
     }
 }

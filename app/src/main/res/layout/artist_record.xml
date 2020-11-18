@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardBackgroundColor="@color/cardview_light_background">
+    
+    
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/ivPeice_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_action_insertimage">
+
+        </ImageView>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="202dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPiece_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center|center_horizontal"
+            android:hint="@string/name"
+            android:textColor="#A6284854"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

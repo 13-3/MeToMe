@@ -14,6 +14,7 @@ public class CategoriesActivity extends AppCompatActivity {
 
     ImageView ivClickProfile;
     TextView tvcategoryName;
+    TextView tvArtist;
     DatabaseHelper db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class CategoriesActivity extends AppCompatActivity {
 
         ivClickProfile = findViewById(R.id.ivClickProfile2);
         tvcategoryName = findViewById(R.id.tvcategoryName);
+        tvArtist = findViewById(R.id.tvArtist);
 
         Bundle extras = getIntent().getExtras();
         String username = null;
@@ -40,11 +42,16 @@ public class CategoriesActivity extends AppCompatActivity {
             String image = String.valueOf(db.getProfilePhoto(username));
             tvcategoryName.setText(username);
             ivClickProfile.setImageURI(Uri.parse(image));
-
-
-
-
         }
+
+        tvArtist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(CategoriesActivity.this,ArtistActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
